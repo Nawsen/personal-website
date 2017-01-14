@@ -8,6 +8,7 @@ import {SkillSectionModule} from "./skill-section/skill-section.module";
 import {AboutSectionModule} from "./about-section/about-section.module";
 import {HomeSectionModule} from "./home-section/home-section.module";
 import {NavBarModule} from "./nav-bar/nav-bar.module";
+import {ExperienceSectionModule} from "./experience-section/experience-section.module";
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import {NavBarModule} from "./nav-bar/nav-bar.module";
     AboutSectionModule,
     HomeSectionModule,
     NavBarModule,
-    SkillSectionModule
+    SkillSectionModule,
+    ExperienceSectionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
