@@ -18,7 +18,7 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "../node_modules/materialize-css/dist/css/materialize.min.css",
+        "../node_modules/materialize-css/bin/materialize.css",
         "../node_modules/font-awesome/css/font-awesome.min.css",
         "assets/css/pro-bars.css",
         "assets/css/owl-carousel.css",
@@ -27,7 +27,7 @@
       ],
       "scripts": [
         "../node_modules/jquery/dist/jquery.min.js",
-        "../node_modules/materialize-css/dist/js/materialize.min.js",
+        "../node_modules/materialize-css/bin/materialize.js",
         "assets/js/appear.min.js",
         "assets/js/pro-bars.min.js",
         "assets/js/owl.carousel.min.js",
