@@ -18,10 +18,23 @@
       "prefix": "app",
       "mobile": false,
       "styles": [
-        "styles.css",
-        "assets/css/themes/blue-theme.css"
+        "../node_modules/materialize-css/dist/css/materialize.min.css",
+        "../node_modules/font-awesome/css/font-awesome.min.css",
+        "assets/css/pro-bars.css",
+        "assets/css/owl-carousel.css",
+        "assets/css/themes/blue-theme.css",
+        "styles.css"
       ],
-      "scripts": [],
+      "scripts": [
+        "../node_modules/jquery/dist/jquery.min.js",
+        "../node_modules/materialize-css/dist/js/materialize.min.js",
+        "assets/js/appear.min.js",
+        "assets/js/pro-bars.min.js",
+        "assets/js/owl.carousel.min.js",
+        "assets/js/waypoints.min.js",
+        "assets/js/jquery.counterup.min.js",
+        "assets/js/custom.js"
+      ],
       "environments": {
         "source": "environments/environment.ts",
         "dev": "environments/environment.ts",
