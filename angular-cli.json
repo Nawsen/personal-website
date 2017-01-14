@@ -19,7 +19,7 @@
       "mobile": false,
       "styles": [
         "styles.css",
-        "assets/css/themes/default-theme.css"
+        "assets/css/themes/blue-theme.css"
       ],
       "scripts": [],
       "environments": {
