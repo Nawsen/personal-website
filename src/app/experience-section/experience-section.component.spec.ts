@@ -1,9 +1,10 @@
 /* tslint:disable:no-unused-variable */
-import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { By } from '@angular/platform-browser';
-import { DebugElement } from '@angular/core';
+import {async, ComponentFixture, TestBed} from '@angular/core/testing';
+import {By} from '@angular/platform-browser';
+import {DebugElement} from '@angular/core';
 
-import { ExperienceSectionComponent } from './experience-section.component';
+import {ExperienceSectionComponent} from './experience-section.component';
+import {ExperienceComponent} from "./experience/experience.component";
 
 describe('ExperienceSectionComponent', () => {
   let component: ExperienceSectionComponent;
@@ -11,9 +12,12 @@ describe('ExperienceSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ ExperienceSectionComponent ]
+      declarations: [
+        ExperienceSectionComponent,
+        ExperienceComponent
+      ]
     })
-    .compileComponents();
+      .compileComponents();
   }));
 
   beforeEach(() => {

@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { FactsSectionComponent } from './facts-section.component';
+import {FactComponent} from "./fact/fact.component";
 
 describe('FactsSectionComponent', () => {
   let component: FactsSectionComponent;
@@ -11,7 +12,10 @@ describe('FactsSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ FactsSectionComponent ]
+      declarations: [
+        FactsSectionComponent,
+        FactComponent
+      ]
     })
     .compileComponents();
   }));

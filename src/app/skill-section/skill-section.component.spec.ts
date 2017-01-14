@@ -4,6 +4,7 @@ import { By } from '@angular/platform-browser';
 import { DebugElement } from '@angular/core';
 
 import { SkillSectionComponent } from './skill-section.component';
+import {SkillBarComponent} from "./skill-bar/skill-bar.component";
 
 describe('SkillSectionComponent', () => {
   let component: SkillSectionComponent;
@@ -11,7 +12,10 @@ describe('SkillSectionComponent', () => {
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ SkillSectionComponent ]
+      declarations: [
+        SkillSectionComponent,
+        SkillBarComponent
+      ]
     })
     .compileComponents();
   }));
