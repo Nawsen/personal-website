@@ -4,21 +4,23 @@ import { FormsModule } from '@angular/forms';
 import { HttpModule } from '@angular/http';
 
 import { AppComponent } from './app.component';
-import { NavBarComponent } from './nav-bar/nav-bar.component';
-import { HomeSectionComponent } from './home-section/home-section.component';
-import { AboutSectionComponent } from './about-section/about-section.component';
+import {SkillSectionModule} from "./skill-section/skill-section.module";
+import {AboutSectionModule} from "./about-section/about-section.module";
+import {HomeSectionModule} from "./home-section/home-section.module";
+import {NavBarModule} from "./nav-bar/nav-bar.module";
 
 @NgModule({
   declarations: [
-    AppComponent,
-    NavBarComponent,
-    HomeSectionComponent,
-    AboutSectionComponent
+    AppComponent
   ],
   imports: [
     BrowserModule,
     FormsModule,
-    HttpModule
+    HttpModule,
+    AboutSectionModule,
+    HomeSectionModule,
+    NavBarModule,
+    SkillSectionModule
   ],
   providers: [],
   bootstrap: [AppComponent]
