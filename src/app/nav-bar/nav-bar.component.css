@@ -1,0 +1,98 @@
+.custom-nav li a {
+  font-family: "Roboto", sans-serif;
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 14px;
+  padding: 25px 20px;
+  text-transform: uppercase;
+  -webkit-transition: all 0.3s ease-out 0s;
+  -ms-transition: all 0.3s ease-out 0s;
+  -o-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+}
+
+nav .brand-logo {
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+nav .brand-logo img {
+  height: 45px;
+  margin-top: 10px;
+}
+
+.side-nav a {
+  text-transform: uppercase;
+}
+
+.side-nav li:hover {
+  color: #fff;
+}
+
+.side-nav li a:hover {
+  color: #fff;
+}
+
+@media (max-width: 1199px ) {
+
+  .custom-nav li a {
+    padding: 25px 15px;
+  }
+
+}
+
+@media (max-width: 991px ) {
+
+  .custom-nav li a {
+    padding: 25px 20px;
+  }
+
+}
+
+@media (max-width: 767px ) {
+
+  nav .brand-logo img {
+    height: 40px;
+    margin-top: 12px;
+  }
+
+}
+
+@media (max-width: 480px ) {
+
+  nav .brand-logo {
+    font-size: 1.1rem;
+  }
+
+  nav .brand-logo img {
+    height: 35px;
+    margin-top: 12px;
+  }
+
+  .side-nav {
+    width: 200px;
+  }
+
+  .side-nav a {
+    height: 45px;
+    line-height: 50px;
+  }
+
+}
+
+@media (max-width: 360px ) {
+
+  nav .brand-logo img {
+    height: 27px;
+    margin-top: 16px;
+  }
+
+}
+
+@media (max-width: 320px ) {
+
+  nav .brand-logo {
+    font-size: 1.1rem;
+  }
+
+}
