@@ -109,7 +109,7 @@ nav .brand-logo img {
 .home-inner {
   display: inline;
   float: left;
-  padding: 57px 0px;
+  padding: 32px 0px;
   text-align: center;
   position: relative;
   width: 100%;
@@ -125,7 +125,7 @@ nav .brand-logo img {
 
 .home-inner > span > h2 {
   color: #fff;
-  font-size: 30px;
+  font-size: 25px;
   font-weight: 300;
   margin-bottom: 38px;
   text-transform: uppercase;
@@ -2396,6 +2396,8 @@ textarea.materialize-textarea {
   margin-right: auto;
   left: 0;
   right: 0;
+  text-shadow: 1px 1px #000000;
+  font-weight: 400;
   position: absolute;
   opacity: 0;
   overflow: hidden;
@@ -2403,6 +2405,13 @@ textarea.materialize-textarea {
   -webkit-animation: rotateWord 18s linear infinite 0s;
   -ms-animation: rotateWord 18s linear infinite 0s;
   animation: rotateWord 18s linear infinite 0s;
+}
+
+.heart{
+  color: #6b969d;
+  -webkit-animation: none;
+  -ms-animation: none;
+  animation: none;
 }
 
 .rw-words-1 span:nth-child(2) {
