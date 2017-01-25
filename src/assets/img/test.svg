@@ -1,0 +1,161 @@
+<svg viewBox="13 12 80 80 " xmlns="http://www.w3.org/2000/svg"
+     xmlns:xlink="http://www.w3.org/1999/xlink">
+  <g>
+    <text text-anchor="middle" transform="translate(30,50)rotate(0)"
+          style="font-size: 10px; font-family: Impact; fill: #dd0031">
+      Angular
+    </text>
+    <text text-anchor="middle" transform="translate(70,29)rotate(0)"
+          style="font-size: 8px; font-family: Impact; fill: #8600dd">
+      Java
+    </text>
+    <text text-anchor="middle" transform="translate(77,34)rotate(90)"
+          style="font-size: 4px; font-family: Impact; fill: #009fdd">
+      JSF 2
+    </text>
+    <text text-anchor="middle" transform="translate(84,88)rotate(90)"
+          style="font-size: 2px; font-family: Impact; fill: #000000">
+      PHP
+    </text>
+    <text text-anchor="middle" transform="translate(36,71)rotate(0)"
+          style="font-size: 6px; font-family: Impact; fill: #dd3a00">
+      HTML 5
+    </text>
+    <text text-anchor="middle" transform="translate(40,58)rotate(90)"
+          style="font-size: 6px; font-family: Impact; fill: #3cac30">
+      CSS 3
+    </text>
+    <text text-anchor="middle" transform="translate(14,64)rotate(90)"
+          style="font-size: 6px; font-family: Impact; fill: #00dda5">
+      Javascript
+    </text>
+    <text text-anchor="middle" transform="translate(24,76)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #dd0079">
+      jQuery
+    </text>
+    <text text-anchor="middle" transform="translate(80,80)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #000">
+      VB.net
+    </text>
+    <text text-anchor="middle" transform="translate(16,16)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #000">
+      C#
+    </text>
+    <text text-anchor="middle" transform="translate(17,87)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #dd7f12">
+      MySql
+    </text>
+    <text text-anchor="middle" transform="translate(82,41)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #dd5f4b">
+      JBehave
+    </text>
+    <text text-anchor="middle" transform="translate(85,45)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #676add">
+      JBoss
+    </text>
+    <text text-anchor="middle" transform="translate(70,17)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #dd8143">
+      Tomcat
+    </text>
+    <text text-anchor="middle" transform="translate(70,37)rotate(00)"
+          style="font-size: 4px; font-family: Impact; fill: #66dd7c">
+      Orika
+    </text>
+    <text text-anchor="middle" transform="translate(69,43)rotate(90)"
+          style="font-size: 4px; font-family: Impact; fill: #af8fdd">
+      Dozer
+    </text>
+    <text text-anchor="middle" transform="translate(57,20)rotate(0)"
+          style="font-size: 4px; font-family: Impact; fill: #dd0041">
+      Selenium
+    </text>
+    <text text-anchor="middle" transform="translate(70,70)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #dd86a5">
+      Activiti
+    </text>
+    <text text-anchor="middle" transform="translate(60,70)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #ddd400">
+      Photoshop
+    </text>
+    <text text-anchor="middle" transform="translate(65,80)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #1ddd00">
+      Android
+    </text>
+    <text text-anchor="middle" transform="translate(75,52)rotate(0)"
+          style="font-size: 4px; font-family: Impact; fill: #9D4f3a">
+      Primefaces
+    </text>
+    <text text-anchor="middle" transform="translate(25,22)rotate(0)"
+          style="font-size: 4px; font-family: Impact; fill: #8fdd76">
+      JUnit
+    </text>
+    <text text-anchor="middle" transform="translate(30,30)rotate(90)"
+          style="font-size: 4px; font-family: Impact; fill: #dd8579">
+      JAX-WS
+    </text>
+    <text text-anchor="middle" transform="translate(40,40)rotate(0)"
+          style="font-size: 5px; font-family: Impact; fill: #cedd90">
+      JAX-RS
+    </text>
+    <text text-anchor="middle" transform="translate(40,20)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #dd82af">
+      PostgreSQL
+    </text>
+    <text text-anchor="middle" transform="translate(77,65)rotate(90)"
+          style="font-size: 2px; font-family: Impact; fill: #7aa8ff">
+      Wordpress
+    </text>
+    <text text-anchor="middle" transform="translate(73,60)rotate(0)"
+          style="font-size: 2px; font-family: Impact; fill: #aedd46">
+      Joomla
+    </text>
+    <text text-anchor="middle" transform="translate(61,58)rotate(0)"
+          style="font-size: 2px; font-family: Impact; fill: #9d72dd">
+      Drupal
+    </text>
+    <text text-anchor="middle" transform="translate(50,75)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #dd0075">
+      Bootstrap
+    </text>
+    <text text-anchor="middle" transform="translate(57,30)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #54dd21">
+      EJB
+    </text>
+    <text text-anchor="middle" transform="translate(55,25)rotate(0)"
+          style="font-size: 4px; font-family: Impact; fill: #57a9dd">
+      JPA
+    </text>
+    <text text-anchor="middle" transform="translate(53,40)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #dd49a1">
+      Swift
+    </text>
+    <text text-anchor="middle" transform="translate(40,90)rotate(0)"
+          style="font-size: 4px; font-family: Impact; fill: #965bdd">
+      MongoDB
+    </text>
+    <text text-anchor="middle" transform="translate(50,85)rotate(90)"
+          style="font-size: 2px; font-family: Impact; fill: #a7dd28">
+      Hadoop
+    </text>
+    <text text-anchor="middle" transform="translate(85,61)rotate(90)"
+          style="font-size: 3px; font-family: Impact; fill: #0057dd">
+      JavaFX
+    </text>
+    <text text-anchor="middle" transform="translate(20,35)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #99dd64">
+      ASP.net
+    </text>
+    <text text-anchor="middle" transform="translate(30,83)rotate(0)"
+          style="font-size: 5px; font-family: Impact; fill: #43853d">
+      nodeJS
+    </text>
+    <text text-anchor="middle" transform="translate(70,90)rotate(0)"
+          style="font-size: 3px; font-family: Impact; fill: #dd2a00">
+      Adobe livecycle
+    </text>
+    <text text-anchor="middle" transform="translate(50,57)rotate(90)"
+          style="font-size: 5px; font-family: Impact; fill: #0066dd">
+      Docker
+    </text>
+  </g>
+</svg>
