@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit, Input} from '@angular/core';
+import {Fact} from "../fact.model";
 
 @Component({
   selector: 'app-fact',
@@ -7,7 +8,10 @@ import { Component, OnInit } from '@angular/core';
 })
 export class FactComponent implements OnInit {
 
-  constructor() { }
+  @Input() private fact: Fact;
+
+  constructor() {
+  }
 
   ngOnInit() {
   }

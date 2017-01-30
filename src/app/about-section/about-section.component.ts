@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Navigation} from "../shared/navigation.model";
 
 @Component({
   selector: 'app-about-section',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class AboutSectionComponent implements OnInit {
 
-  constructor() { }
+  private aboutNavigation: Navigation;
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.aboutNavigation = Navigation.ABOUT;
   }
 
 }

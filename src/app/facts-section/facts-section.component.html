@@ -5,9 +5,7 @@
         <div class="col s12">
           <div class="facts-inner">
             <div class="row">
-              <app-fact></app-fact>
-              <app-fact></app-fact>
-              <app-fact></app-fact>
+              <app-fact *ngFor="let fact of facts" [fact]="fact"></app-fact>
             </div>
           </div>
         </div>

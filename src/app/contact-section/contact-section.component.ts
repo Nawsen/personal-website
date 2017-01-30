@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Navigation} from "../shared/navigation.model";
 
 @Component({
   selector: 'app-contact-section',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ContactSectionComponent implements OnInit {
 
-  constructor() { }
+  private contactNavigation: Navigation;
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.contactNavigation = Navigation.CONTACT;
   }
 
 }

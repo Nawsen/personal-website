@@ -1,4 +1,5 @@
-import { Component, OnInit } from '@angular/core';
+import {Component, OnInit} from '@angular/core';
+import {Navigation} from "../shared/navigation.model";
 
 @Component({
   selector: 'app-home-section',
@@ -7,9 +8,13 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeSectionComponent implements OnInit {
 
-  constructor() { }
+  private homeNavigation: Navigation;
+
+  constructor() {
+  }
 
   ngOnInit() {
+    this.homeNavigation = Navigation.HOME;
   }
 
 }
