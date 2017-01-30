@@ -1,19 +1,23 @@
-<form>
+<form [formGroup]="contactFrom" novalidate>
   <div class="input-field">
-    <input type="text" class="input-box" name="contactName" id="contact-name">
-    <label class="input-label" for="contact-name">Name</label>
+    <input formcontrolname="name" type="text" class="input-box" name="contactName" id="contact-name">
+    <label class="input-label" for="contact-name">Name
+      <span *ngIf="contactFrom.get('name').errors && contactFrom.get('name').touched" class="error">
+          Field is required
+      </span>
+    </label>
   </div>
   <div class="input-field">
-    <input type="email" class="input-box" name="contactEmail" id="email">
+    <input formControlName="email" type="email" class="input-box" name="contactEmail" id="email">
     <label class="input-label" for="email">Email</label>
   </div>
   <div class="input-field">
-    <input type="text" class="input-box" name="contactSubject" id="subject">
+    <input formcontrolname="subject" type="text" class="input-box" name="contactSubject" id="subject">
     <label class="input-label" for="subject">Subject</label>
   </div>
   <div class="input-field textarea-input">
-    <textarea class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
+    <textarea formcontrolname="message" class="materialize-textarea" name="contactMessage" id="textarea1"></textarea>
     <label class="input-label" for="textarea1">Message</label>
   </div>
-  <button class="left waves-effect btn-flat brand-text submit-btn" type="submit">send message</button>
+  <button class="left waves-effect btn-flat brand-text submit-btn" type="submit" (click)="submit()">send message</button>
 </form>
